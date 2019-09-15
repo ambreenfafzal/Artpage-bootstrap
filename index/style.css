@@ -1,0 +1,23 @@
+body {
+    background-image: url("/assets/images/landingpage1.jpg");
+    background-repeat: no-repeat;  
+    background-attachment: scroll;  
+    background-position: 0% 0%;
+    background-size: cover;
+}
+
+button {
+    margin-left: 67%;
+    margin-top: 25%;
+}
+
+a {
+    color: #6c757d;
+    
+}
+a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+
