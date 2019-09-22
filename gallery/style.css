@@ -2,26 +2,129 @@ body, html {
     height: 100%;
     margin: 0;
 }
+.background-image {  
+          filter: blur(10px);
+        position: fixed;
+       background-image: url("../assets/images/gallery.jpg");
+        z-index: 1;
+        position: fixed;
+left: 0;
+right: 0;
+z-index: 1;
+display: block;
 
-.background {
-    background-image: url("/assets/images/gallery.jpg");
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: blur(6px);
-    background-attachment: fixed;
-    
-   
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: cover;
+       
+} 
+.content {
+position: absolute;
+/* left: 35%;
+right: 5%; */
+z-index: 9999;
 }
 
-.pictures {
+img {
     
-    position: absolute;
-    background-color:white;
-    top: 25%;
-    left: 25%;
-    padding: 20px;
-    width: 50%;
+    height: 800px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+padding: 5px;
+left: 100%;
+position: relative;
+
+
+}
+#zebra {
+    width: 45%;
+    position: relative;
+    
+}
+
+
+#right-button{
+    position: fixed;
+    top: 40%;
+    left: 80%;
+   width: 10%;
+   height: 10%;
+}
+
+#left-button {
+    position:fixed;
+    width: 10%;
+   height: 10%;
+   top: 40%;
+   left: 10%;
+}
+
+.images {
+    display: block;
+}
+
+.dot {
+   
+   position: fixed;
+   top: 80%;
+   left: 10%;
+    background-color:violet;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: block;    
+}
+.dot:hover {
+    transform:scale(1.5);
+}
+.artist {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+    padding-top: 25px;
+    padding-left: 12px;
+    color: white;
+    
+}
+
+.dot9 {
+   
+    position: fixed;
+    top: 80%;
+    right: 10%;
+     background-color: orange;
+     height: 90px;
+     width: 90px;
+     border-radius: 60%;
+     display: block;    
+ }
+ .dot9:hover {
+    transform:scale(1.5);
+}
+.contact {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+    padding-top: 25px;
+    padding-left: 12px;
+    color: white;
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color:rgb(192, 60, 8);
+  }
+
+a {
+    color: rgb(9, 10, 9);
+}
+
+.heading {
+top: 0px;
+left: 50%;
+}
+
+h2 {
+    text-align: center;
 }
 
