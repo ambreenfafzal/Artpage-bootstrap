@@ -21,27 +21,14 @@ background-size: cover;
 } 
 .content {
 position: absolute;
+width: 100%;
 /* left: 35%;
 right: 5%; */
-z-index: 9999;
+z-index: 10;
 }
 
-img {
-    
-    height: 800px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-padding: 5px;
-left: 100%;
-position: relative;
 
 
-}
-#zebra {
-    width: 45%;
-    position: relative;
-    
-}
 
 
 #right-button{
@@ -60,9 +47,7 @@ position: relative;
    left: 10%;
 }
 
-.images {
-    display: block;
-}
+
 
 .dot {
    
@@ -119,12 +104,34 @@ a {
     color: rgb(9, 10, 9);
 }
 
-.heading {
-top: 0px;
-left: 50%;
-}
+
 
 h2 {
-    text-align: center;
+    margin-left: 860px;
+    margin-top: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
 }
 
+hr {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.image-div {
+   max-width: 500px;
+   overflow: hidden;
+margin-left: 700px;
+margin-top: 20px;
+position: fixed;
+             
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+  
+    
+}
+ .bottom {
+     margin-top: 80px;
+ }
