@@ -1,5 +1,5 @@
 body {
-    background-image: url("/assets/images/landingpage1.jpg");
+    background-image: url("./assets/images/landingpage1.jpg");
     background-repeat: no-repeat;  
     background-attachment: scroll;  
     background-position: 0% 0%;
