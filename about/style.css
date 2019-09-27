@@ -4,7 +4,7 @@ body, html {
 }
 
 .background {
-    background-image: url("/assets/images/aboutphoto.jpg");
+    background-image: url("../assets/images/aboutphoto.jpg");
     height: 100%;
     background-size: cover;
     background-position: center;
